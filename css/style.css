@@ -1,0 +1,282 @@
+/* Здесь будут храниться стили нашего сайта */
+/*Оформление шапки*/
+body {
+	font-family: Roboto;
+	margin: 0;
+}
+img {
+	max-width: 100%;
+}
+header {
+	background-color: #3a7dfd;
+	background-image: linear-gradient(-147deg, #3a7dfd 0%, #1157db 100%);
+}
+.header-picture {
+	margin-top: 59px;
+	margin-bottom: 22px;
+	margin-left: 80px;
+}
+.header-subtitle-1 {
+	margin-top: 161px;
+	margin-bottom: 21px;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+}
+.header-title {
+	color: #ffffff;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 36px;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+.header-subtitle-2 {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 33px;
+}
+.header-button {
+	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+	border-radius: 40px;
+	background-color: #ffffff;
+	padding: 12px 50px;
+	color: #072b6f;
+	font-size: 18px;
+	font-weight: 700;
+}
+.header-button:hover {
+	box-shadow: none;
+	cursor: pointer;
+	transition: 0.2s;
+}
+.header-small {
+	padding-left: 50px;
+	margin-top: 9px;
+}
+.small-text {
+	display: block;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+/*Секция портфолио*/
+.portfolio {
+	background-color: #dddddd;
+	padding: 44px 160px 70px 160px;
+}
+.plashka {
+	border: 3px solid #ffffff;
+	background-color: #ffffff;
+}
+.portfolio-title {
+	color: #072b6f;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+.portfolio-subtitle {
+	color: #7bb9ff;
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 0;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.portfolio-title-gas {
+	color: #072b6f;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.portfolio-text-gas {
+	color: #8f8f8f;
+	font-size: 14px;
+	font-weight: 400;
+}
+.portfolio-link-gas {
+	color: #072b6f;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: underline;
+	display: inline-block;
+	margin-bottom: 31px;
+}
+.portfolio-title-mir {
+	color: #072b6f;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.portfolio-text-mir {
+	color: #8f8f8f;
+	font-size: 14px;
+	font-weight: 400;
+}
+.portfolio-link-mir {
+	color: #072b6f;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: underline;
+}
+.portfolio-col-1 {
+	padding-left: 50px;
+}
+.portfolio-col-2 {
+	padding-right: 50px;
+}
+
+/*Оформление подвала*/
+.padik {
+	background-color: #3a7dfd;
+	color: #ffffff;
+	padding-top: 60px;
+	padding-bottom: 110px;
+}
+.footer-title {
+	color: #fefefe;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 40px;
+	margin-bottom: 0;
+	margin-left: 60px;
+}
+.footer-subtitle {
+	color: #deedfe;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 40px;
+	margin-top: 0;
+	margin-left: 60px;
+}
+.sign-in {
+	color: #deedfe;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 40px;
+}
+.pismetso-v-konverte {
+	color: #deedfe;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 40px;
+}
+.social-block {
+	text-align: center;
+}
+.social-block a {
+	display: inline-block;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+.footer-button {
+	display: inline-block;
+	border-radius: 50px;
+	border: 1px solid #ffffff;
+	background-color: transparent;
+	color: #ffffff;
+	font-size: 18px;
+	padding: 12px 40px;
+}
+.footer-button:hover {
+	background-color: #ffffff;
+	color: #3a7dfd;
+	cursor: pointer;
+}
+.footer-cta-block {
+	text-align: center;
+}
+@media (max-width: 1200px) {
+	.header-picture {
+		margin-left: 30px;
+	}
+	.header-subtitle-1 {
+		margin-top: 131px;
+	}
+	.footer-title {
+		font-size: 20px;
+	}
+	.footer-subtitle {
+		font-size: 16px;
+	}
+	.social-block a {
+		margin-left: 7px;
+		margin-right: 7px;
+	}
+	.footer-button {
+	font-size: 16px;
+	padding: 10px 40px;
+}
+}
+@media (max-width: 995px) {
+	.header-picture {
+		display: none;
+	}
+	.header-subtitle-1 {
+		margin-top: 111px;
+	}
+	.footer-title {
+		font-size: 16px;
+		margin-left: 40px;
+	}
+	.footer-subtitle {
+		font-size: 12px;
+		margin-left: 40px;
+	}
+	.social-block a {
+		margin-left: 4px;
+		margin-right: 4px;
+	}
+	.social-block a img {
+		width: 30px;
+		height: 30px;
+	}
+	.footer-button {
+		font-size: 14px;
+		padding: 7px 30px;
+	}
+	.sign-in {
+		font-size: 14px;
+	}
+	.pismetso-v-konverte {
+		font-size: 14px;
+	}
+	.portfolio-col-1, .portfolio-col-2 {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+@media (max-width: 770px) {
+	.footer-title {
+		font-size: 12px;
+		margin-left: 10px;
+	}
+	.footer-subtitle {
+		font-size: 10px;
+		margin-left: 10px;
+	}
+	.social-block a {
+		margin-left: 4px;
+		margin-right: 4px;
+	}
+	.social-block a img {
+		width: 25px;
+		height: 25px;
+	}
+	.footer-button {
+		font-size: 10px;
+		padding: 7px 30px;
+	}
+	.sign-in {
+		font-size: 10px;
+	}
+	.pismetso-v-konverte {
+		font-size: 10px;
+	}
+}
